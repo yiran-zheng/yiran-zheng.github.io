@@ -3,7 +3,7 @@ title: "ECO 2305 Principles of Economics"
 collection: teaching
 category: Sole Instructor
 #type: "Sole Instructor"
-#permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2023Fall-2024Fall-teaching-1
 #venue: "Texas Tech University, Economics"
 semester: Fall 2023, Spring 2024, Summer 2024, Fall 2024
 #location: "Lubbock, TX"
