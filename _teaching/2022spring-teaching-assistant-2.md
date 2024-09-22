@@ -1,9 +1,9 @@
 ---
 title: "ECO 4323 Monetary Theory"
 collection: teaching
-Category: "Teaching Assistant"
+type: "Teaching Assistant"
 permalink: /teaching/2022spring-teaching-assistant-2
-#venue: "University 1, Department"
+venue: "TTU, Economics"
 date: Spring 2022
-#location: "City, Country"
+location: "Lubbock, TX"
 ---
