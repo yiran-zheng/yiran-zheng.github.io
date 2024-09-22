@@ -8,11 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Yiran Zheng / Economics"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yiran Zheng"
+description              : &description "I am a Ph.D. candidate in the Department of Economics at Texas Tech University. I am an Economics Job Market Candidate for 2024-2025 academic year.
+"
+url                      : https://yiran-zheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yiran-zheng/yiran-zheng.github.io"
 
