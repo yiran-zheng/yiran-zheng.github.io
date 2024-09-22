@@ -9,7 +9,6 @@ author_profile: true
 
 <!-- New style rendering if teaching categories are defined -->
 {% if site.teaching_category %}
-{% if site.teaching_category %}
   {% for category in site.teaching_category  %}
     {% assign title_shown = false %}
     {% for post in site.teachings reversed %}
@@ -24,8 +23,6 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-
-
   {% for post in site.teaching reversed %}
     {% include archive-single.html %}
   {% endfor %}
