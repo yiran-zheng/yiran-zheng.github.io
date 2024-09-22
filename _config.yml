@@ -215,7 +215,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  Research:
+  Publication:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -258,7 +258,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: research
+      type: publication
     values:
       layout: single
       author_profile: true
