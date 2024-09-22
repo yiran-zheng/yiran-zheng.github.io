@@ -1,7 +1,8 @@
 ---
 title: "ECO 2305 Principles of Economics"
 collection: teaching
-type: "Sole Instructor"
+category: Sole Instructor
+#type: "Sole Instructor"
 #permalink: /teaching/2015-spring-teaching-1
 #venue: "Texas Tech University, Economics"
 semester: Fall 2023, Spring 2024, Summer 2024, Fall 2024
