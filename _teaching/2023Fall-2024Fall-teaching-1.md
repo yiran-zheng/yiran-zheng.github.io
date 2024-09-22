@@ -4,7 +4,7 @@ collection: teaching
 type: "Sole Instructor"
 permalink: /teaching/2023Fall-2024Fall-teaching-1
 venue: "TTU, Economics"
-date: "Fall 2023, Spring 2024, Summer 2024, Fall 2024"
+#date: "2024"
 location: "Lubbock, TX"
 ---
 This course aims to covers the most significant portions of Principles of Microeconomics (ECO 2301) and Principles of Macroeconomics (ECO 2302), with emphasis on monetary and fiscal policy.
