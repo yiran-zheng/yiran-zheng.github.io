@@ -88,14 +88,18 @@ research_category:
   working:
     title: 'Working Papers'
   progress:
-    title: 'Works in Progress'    
+    title: 'Works in Progress'
+  conferences:
+    title: 'Conferences'
 
 # Research Category - The following the list of research categories and their headings
 teaching_category:
   instructor:
     title: 'Sole Instructor'
   ta:
-    title: 'Teaching Assistant'  
+    title: 'Teaching Assistant'
+  other:
+    title: 'Other'
     
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
