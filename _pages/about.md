@@ -22,9 +22,7 @@ redirect_from:
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1.5; margin-right: 20px; align-self: center;">
     <div style="flex: 2;font-size: 18px;color: #666666;">
-      <p>
-      <strong>Contact Information</strong>
-      </p>
+      <p><strong>Contact Information</strong></p>
       <p>
       &#xf3c5;Holden Hall 144,  
       Texas Tech University,  
