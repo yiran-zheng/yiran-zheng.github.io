@@ -18,7 +18,7 @@ redirect_from:
 <li>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</li>
 </ul>
 
-<h2>Work experience</h2
+<h2>Work experience</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
     Fall 2020 - present: Teaching Assistant
