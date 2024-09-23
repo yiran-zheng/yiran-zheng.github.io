@@ -27,7 +27,7 @@ redirect_from:
       &#128205; Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
       </p>
       <p>
-      &#128231; yirzheng@ttu.edu
+      &#128231; <a href= "mailto: yirzheng@ttu.edu"> yirzheng@ttu.edu </a>
       </p>
     </div>
   </div>
