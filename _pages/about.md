@@ -13,7 +13,7 @@ redirect_from:
       I am a fifth-year Ph.D. candidate in the Department of Economics at Texas Tech University. I am an Economics Job Market Candidate for the 2024-2025 academic year.  
       </p>
       <p>
-      My primary research interests are in applied economics and industrial organization, concentrating on consumer choices, marketing, and the accommodation industry.
+      My primary research interests are in applied economics and industrial organization, concentrating on choice behavior, marketing, and the accommodation industry.
       </p>
     </div>
   </div>
