@@ -39,7 +39,7 @@ redirect_from:
   </li>  
   <li>
     <strong><i>Certification</i></strong>
-      &nbsp;<a href="" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>
+      &nbsp;<a href="../files/*Coursera P6D0XVXCGQGN.pdf" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>
   </li>
 </ul>
 
