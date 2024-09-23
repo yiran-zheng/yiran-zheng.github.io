@@ -37,6 +37,10 @@ redirect_from:
     <strong><i>Programming</i></strong>
       &nbsp;R, Stata, SQL, Tabuleau, LaTeX
   </li>  
+  <li>
+    <strong>Certification</strong>
+      &nbsp;[<a href="https://coursera.org/share/6c74b543cd9f11dfeb9f3cb276fe61cd" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>]
+  </li>
 </ul>
 
 <h2>Honors and Scholarship</h2>
