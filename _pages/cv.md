@@ -32,7 +32,7 @@ redirect_from:
   
 <h2>Sklils</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
-<ul>
+<ul style="list-style-type: none;" >
   <li>
     <strong>Programming</strong>
     R, Stata, SQL, Tabuleau, LaTeX
@@ -51,7 +51,7 @@ redirect_from:
 </ul>
 <h2>References</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
-  <ul>
+  <ul style="list-style-type: square;">
     <li>
       <strong>Michael Noel</strong> (Dissertation Chair)
       <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
