@@ -24,7 +24,7 @@ redirect_from:
     <div style="flex: 2;font-size: 18px;color: #666666;">
       <p><strong>Contact Information</strong></p>
       <p>
-      &#xf3c5;Holden Hall 144,  
+      <i class='fas fa-map-marker-alt'></i>Holden Hall 144,  
       Texas Tech University,  
       Lubbock, Texas 79409  
       </p>
