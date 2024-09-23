@@ -11,39 +11,39 @@ redirect_from:
 
 <h2>Education</h2>
 <ul>
-<il>Ph.D in Economics, Texas Tech University, Expected August 2025</il>
-<il>M.S. in Tourism Administration, George Washington University, May 2020</il>
-<il>B.S. in in Economics, University of Liverpool, July 2018</il>
-<il>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</il>
+<li>Ph.D in Economics, Texas Tech University, Expected August 2025</li>
+<li>M.S. in Tourism Administration, George Washington University, May 2020</li>
+<li>B.S. in in Economics, University of Liverpool, July 2018</li>
+<li>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</li>
 </ul>
 
 <h2>Work experience</h2>
 <ul>
     Fall 2020 - present: Teaching Assistant
     <ul>
-      <il>
+      <li>
         Department of Economics, Texas Tech University, TX, USA
-      </il>
+      </li>
     </ul>
 </ul>
 
   
-<h2>Skills</h2>
+<h2>Sklils</h2>
 <ul>
-  <il>
+  <li>
     <strong>Programming</strong>
     R, Stata, SQL, Tabuleau, LaTeX
-  </il>  
+  </li>  
 </ul>
 
 <h2>Honors and Scholarship</h2>
 <ul>
-  <il>
+  <li>
     Dr. Rashid B. Al-Hmoud Scholarship in Economics 2024
-  </il>
-  <il>
+  </li>
+  <li>
     Teaching Assistantship 2020-Present
-  </il>
+  </li>
 </ul>
 
 
