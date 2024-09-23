@@ -13,7 +13,6 @@ redirect_from:
 
   <div style="display: flex; align-items: flex-start; margin-bottom: 30px; background-color: white; border: 1px solid white; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
   <div style="flex: 1.5; margin-right: 20px; align-self: center;">
-  </div>
   <div style="flex: 2;">
     <p, align = "justify; margin-bottom: 5px;">
       
