@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yiran Zheng / Economics"
+title                    : "Yiran Zheng"
 title_separator          : "-"
 name                     : &name "Yiran Zheng"
 description              : &description "I am a Ph.D. candidate in the Department of Economics at Texas Tech University. I am an Economics Job Market Candidate for 2024-2025 academic year.
@@ -23,7 +23,7 @@ repository               : "yiran-zheng/yiran-zheng.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yiran Zheng"
+  name             : "Yiran Zheng 郑怡然"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate in Economics"
   employer         : "Texas Tech University"
