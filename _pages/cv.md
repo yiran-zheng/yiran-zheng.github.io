@@ -34,7 +34,7 @@ redirect_from:
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul style="list-style-type: none;" >
   <li>
-    <strong>Programming</strong>
+    <strong><i>Programming</i></strong>
     R, Stata, SQL, Tabuleau, LaTeX
   </li>  
 </ul>
