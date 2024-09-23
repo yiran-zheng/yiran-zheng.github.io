@@ -18,40 +18,102 @@ author_profile: true
     </div>
 
 <hr> <!-- This adds a horizontal line below the heading -->
-<!DOCTYPE html>
+
+	<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Floating Text with Absolute Positioning</title>
+  <title>Auto-Switching Text Card</title>
   <style>
-    .container {
+    .card-container {
+      width: 300px;
+      height: 200px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
       position: relative;
-      height: 300px;
-      border: 1px solid black;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
     }
-    .floating-text {
+
+    .card {
       position: absolute;
-      top: 50px;
-      left: 50px;
-      background-color: lightyellow;
-      padding: 5px;
-      border: 1px solid black;
-      font-size: 18px;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      opacity: 0;
+      transition: left 0.5s ease, opacity 0.5s ease;
+    }
+
+    .card.active {
+      left: 0;
+      opacity: 1;
+    }
+
+    .card.inactive {
+      left: -100%;
+      opacity: 0;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-text {
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <p>This is a container with some content.</p>
-    <div class="floating-text">
-      This text is floating at a specific position within the container.
+  <div class="card-container">
+    <div class="card active">
+      <div class="card-title">Card 1</div>
+      <div class="card-text">This is the content of the first card.</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Card 2</div>
+      <div class="card-text">This is the content of the second card.</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Card 3</div>
+      <div class="card-text">This is the content of the third card.</div>
     </div>
   </div>
 
+  <script>
+    // Get all card elements
+    const cards = document.querySelectorAll('.card');
+    let currentIndex = 0;
+
+    // Function to switch to the next card
+    function switchCard() {
+      // Remove the 'active' class from the current card
+      cards[currentIndex].classList.remove('active');
+      cards[currentIndex].classList.add('inactive');
+      
+      // Update the index to point to the next card (circular switch)
+      currentIndex = (currentIndex + 1) % cards.length;
+
+      // Add the 'active' class to the new current card
+      cards[currentIndex].classList.add('active');
+      cards[currentIndex].classList.remove('inactive');
+    }
+
+    // Switch card every 3 seconds
+    setInterval(switchCard, 3000);
+  </script>
+
 </body>
 </html>
+
 
 <hr> <!-- This adds a horizontal line below the heading -->
 			 
