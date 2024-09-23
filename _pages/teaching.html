@@ -19,100 +19,104 @@ author_profile: true
 
 <hr> <!-- This adds a horizontal line below the heading -->
 
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Auto-Switching Text Card</title>
+  <title>Text Card Switcher</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
     .card-container {
       width: 300px;
       height: 200px;
       border: 1px solid #ccc;
-      border-radius: 8px;
-      overflow: hidden;
-      position: relative;
+      border-radius: 10px;
+      padding: 20px;
       margin: 20px auto;
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
     }
 
     .card {
-      position: absolute;
-      top: 0;
-      left: 100%;
-      width: 100%;
-      height: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-      opacity: 0;
-      transition: left 0.5s ease, opacity 0.5s ease;
+      display: none;
+      font-size: 18px;
     }
 
     .card.active {
-      left: 0;
-      opacity: 1;
+      display: block;
     }
 
-    .card.inactive {
-      left: -100%;
-      opacity: 0;
+    .buttons {
+      text-align: center;
+      margin-top: 10px;
     }
 
-    .card-title {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .card-text {
+    .buttons button {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
       font-size: 16px;
     }
   </style>
 </head>
 <body>
 
+  <!-- Card Container -->
   <div class="card-container">
-    <div class="card active">
-      <div class="card-title">Card 1</div>
-      <div class="card-text">This is the content of the first card.</div>
-    </div>
-    <div class="card">
-      <div class="card-title">Card 2</div>
-      <div class="card-text">This is the content of the second card.</div>
-    </div>
-    <div class="card">
-      <div class="card-title">Card 3</div>
-      <div class="card-text">This is the content of the third card.</div>
-    </div>
+    <div class="card active">This is Card 1. Some text here.</div>
+    <div class="card">This is Card 2. More content on this card.</div>
+    <div class="card">This is Card 3. Even more text.</div>
+    <div class="card">This is Card 4. Last card content.</div>
+  </div>
+
+  <!-- Buttons to Switch Cards -->
+  <div class="buttons">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
   </div>
 
   <script>
-    // Get all card elements
+    // JavaScript for switching cards
     const cards = document.querySelectorAll('.card');
-    let currentIndex = 0;
+    let currentCard = 0;
 
-    // Function to switch to the next card
-    function switchCard() {
-      // Remove the 'active' class from the current card
-      cards[currentIndex].classList.remove('active');
-      cards[currentIndex].classList.add('inactive');
-      
-      // Update the index to point to the next card (circular switch)
-      currentIndex = (currentIndex + 1) % cards.length;
-
-      // Add the 'active' class to the new current card
-      cards[currentIndex].classList.add('active');
-      cards[currentIndex].classList.remove('inactive');
+    // Function to show the active card
+    function showCard(index) {
+      cards.forEach((card, i) => {
+        card.classList.remove('active');
+        if (i === index) {
+          card.classList.add('active');
+        }
+      });
     }
 
-    // Switch card every 3 seconds
-    setInterval(switchCard, 3000);
+    // Show the next card
+    function nextCard() {
+      currentCard = (currentCard + 1) % cards.length;
+      showCard(currentCard);
+    }
+
+    // Show the previous card
+    function prevCard() {
+      currentCard = (currentCard - 1 + cards.length) % cards.length;
+      showCard(currentCard);
+    }
+
+    // Add event listeners for buttons
+    document.getElementById('nextBtn').addEventListener('click', nextCard);
+    document.getElementById('prevBtn').addEventListener('click', prevCard);
+
+    // Automatically switch cards every 3 seconds
+    setInterval(nextCard, 3000);
   </script>
 
 </body>
 </html>
+
 
 
 <hr> <!-- This adds a horizontal line below the heading -->
