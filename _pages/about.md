@@ -24,7 +24,7 @@ redirect_from:
     <div style="flex: 2;font-size: 18px;color: #666666;">
       <p><strong>Contact Information</strong></p>
       <p>
-      <i style='font-size:24px' class='fas'>&#xf3c5;</i> Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
+      &#128756; Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
       </p>
       <p>
         
