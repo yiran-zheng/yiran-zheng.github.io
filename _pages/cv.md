@@ -55,10 +55,23 @@ redirect_from:
     <li>
       <strong>Michael Noel</strong> (Dissertation Chair)
       <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
-        Professor of Economics
-        michael.noel@ttu.edu
+        <p>Professor in Ecnomics at Texas Tech University</p>
+        <p>michael.noel@ttu.edu</p>
       </div>
-      Professor at Texas Tech University
+    </li>
+    <li>
+      <strong>Kaj Gittings</strong> 
+      <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
+        <p>Associate Professor in Ecnomics at Texas Tech University</p>
+        <p>kaj.gittings@ttu.edu</p>
+      </div>
+    </li>
+    <li>
+      <strong>Sie Won Kim</strong> 
+      <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
+        <p>Assistant Professor in Ecnomics at Texas Tech University</p>
+        <p>siewon.kim@ttu.edu</p>
+      </div>
     </li>
   </ul>
 
