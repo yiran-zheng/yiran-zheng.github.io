@@ -29,8 +29,6 @@ redirect_from:
       &#xf3c5;Holden Hall 144,  
       Texas Tech University,  
       Lubbock, Texas 79409  
-      <p>
-      My primary research interests are in applied economics and industrial organization, concentrating on consumer choices, marketing, and the accommodation industry.
       </p>
     </div>
   </div>
