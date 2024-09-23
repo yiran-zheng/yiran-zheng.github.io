@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV &#127796;"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,42 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<h2>Education</h2>
+<ul>
+<il>Ph.D in Economics, Texas Tech University, Expected August 2025</il>
+<il>M.S. in Tourism Administration, George Washington University, May 2020</il>
+<il>B.S. in in Economics, University of Liverpool, July 2018</il>
+<il>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</il>
+</ul>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<h2>Work experience</h2>
+<ul>
+    Fall 2020 - present: Teaching Assistant
+    <ul>
+      <il>
+        Department of Economics, Texas Tech University, TX, USA
+      </il>
+    </ul>
+</ul>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  
+<h2>Skills</h2>
+<ul>
+  <il>
+    <strong>Programming</strong>
+    R, Stata, SQL, Tabuleau, LaTeX
+  </il>  
+</ul>
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<h2>Honors and Scholarship</h2>
+<ul>
+  <il>
+    Dr. Rashid B. Al-Hmoud Scholarship in Economics 2024
+  </il>
+  <il>
+    Teaching Assistantship 2020-Present
+  </il>
+</ul>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
