@@ -49,6 +49,17 @@ redirect_from:
     Teaching Assistantship 2020-Present
   </li>
 </ul>
-
+<h2>References</h2>
+  <hr> <!-- This adds a horizontal line below the heading -->
+  <ul>
+    <li>
+      <strong>Michael Noel</strong> (Dissertation Chair)
+      <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
+        Professor of Economics
+        michael.noel@ttu.edu
+      </div>
+      Professor at Texas Tech University
+    </li>
+  </ul>
 
   
