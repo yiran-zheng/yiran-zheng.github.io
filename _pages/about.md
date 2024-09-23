@@ -24,10 +24,10 @@ redirect_from:
     <div style="flex: 2;font-size: 18px;color: #666666;">
       <p><strong>Contact Information</strong></p>
       <p>
-      &#128756; Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
+      &#128205; Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
       </p>
       <p>
-        
+      &#128231; yirzheng@ttu.edu
       </p>
     </div>
   </div>
