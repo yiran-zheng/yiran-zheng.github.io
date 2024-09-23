@@ -39,7 +39,7 @@ redirect_from:
   </li>  
   <li>
     <strong>Certification</strong>
-      &nbsp;[<a href="https://coursera.org/share/6c74b543cd9f11dfeb9f3cb276fe61cd" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>]
+      &nbsp;<a href="https://coursera.org/share/6c74b543cd9f11dfeb9f3cb276fe61cd" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>
   </li>
 </ul>
 
