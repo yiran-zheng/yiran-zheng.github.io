@@ -10,10 +10,10 @@ redirect_from:
   <div style="flex: 1.5; margin-right: 20px; align-self: center;">
     <div style="flex: 2;font-size: 18px;color: #666666;">
       <p>
-      I am a fifth-year Ph.D. candidate in the Department of Economics at Texas Tech University. I am an Economics Job Market Candidate for the 2024-2025 academic year.  
+      I am a Ph.D. candidate in the Department of Economics at Texas Tech University. I am on job market for the 2024-2025 academic year.  
       </p>
       <p>
-      My primary research interests are in applied economics and industrial organization, concentrating on choice behavior, marketing, and the accommodation industry.
+      My primary research interests are in industrial organization and applied econometrics, concentrating on choice behavior, marketing, and the accommodation industry.
       </p>
     </div>
   </div>
