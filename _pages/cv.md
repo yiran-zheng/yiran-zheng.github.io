@@ -12,7 +12,7 @@ redirect_from:
 <h2>Education</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
-<li>Ph.D in Economics, Texas Tech University, Expected August 2025</li>
+<li>Ph.D. in Economics, Texas Tech University, Expected August 2025</li>
 <li>M.S. in Tourism Administration, George Washington University, May 2020</li>
 <li>B.S. in in Economics, University of Liverpool, July 2018</li>
 <li>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</li>
