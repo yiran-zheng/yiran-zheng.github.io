@@ -22,7 +22,7 @@ repository               : "yiran-zheng/yiran-zheng.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "../images/pic2.jpg"
+  avatar           : "pic1.png"
   name             : "Yiran Zheng 郑怡然"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate in Economics"
