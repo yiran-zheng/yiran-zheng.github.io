@@ -35,7 +35,7 @@ redirect_from:
 <ul style="list-style-type: none;" >
   <li>
     <strong><i>Programming</i></strong>
-      &nbsp;R, Stata, Latex, SQL, Tabuleau
+      &nbsp;R, Stata, <span style="font-family:serif; font-style:italic;">L</span><sup>A</sup><span style="font-family:serif;">T</span><sub>E</sub><span style="font-family:serif;">X</span>, SQL, Tabuleau
   </li>  
   <li>
     <strong><i>Certification</i></strong>
