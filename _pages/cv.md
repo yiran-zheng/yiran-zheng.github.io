@@ -6,26 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-    .tex sub, .latex sub, .latex sup {
-      text-transform: uppercase;
-    }
-
-    .tex sub, .latex sub {
-      vertical-align: -0.5ex;
-      margin-left: -0.1667em;
-      margin-right: -0.125em;
-    }
-
-    .tex, .latex, .tex sub, .latex sub {
-      font-size: 1em;
-    }
-
-    .latex sup {
-      font-size: 0.85em;
-      vertical-align: 0.15em;
-      margin-left: -0.36em;
-      margin-right: -0.15em;
-    }
     
 {% include base_path %}
 
@@ -55,7 +35,7 @@ redirect_from:
 <ul style="list-style-type: none;" >
   <li>
     <strong><i>Programming</i></strong>
-      &nbsp;R, Stata, <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>, SQL, Tabuleau
+      &nbsp;R, Stata, Latex, SQL, Tabuleau
   </li>  
   <li>
     <strong><i>Certification</i></strong>
