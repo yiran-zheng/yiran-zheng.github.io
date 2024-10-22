@@ -30,18 +30,19 @@ redirect_from:
     </ul>
 </ul>
 
+<h2>Certification</h2>
+  <ul>
+    <li>Graduate Certificate in Digital Marketing and Communication, George Washington University, May 2020</li>
+    <li>&nbsp;<a href="../files/*Coursera P6D0XVXCGQGN.pdf" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>, September 2024</li>
+  </ul>
   
 <h2>Sklils</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul style="list-style-type: none;" >
   <li>
     <strong><i>Programming</i></strong>
-      &nbsp;R, Stata, <span style="font-family:serif; font-style:italic;">L</span><sup>A</sup><span style="font-family:serif;">T</span><sub>E</sub><span style="font-family:serif;">X</span>, SQL, Tabuleau
+      &nbsp;R, Stata, <span style="font-family:serif; font-style:italic;">L</span><sup>A</sup><span style="font-family:serif;">T</span><sub>E</sub><span style="font-family:serif;">X</span>, SPSS, EViews, SQL, Tabuleau
   </li>  
-  <li>
-    <strong><i>Certification</i></strong>
-      &nbsp;<a href="../files/*Coursera P6D0XVXCGQGN.pdf" target="_blank" rel="noopener noreferrer">Google Data Analytics</a>
-  </li>
 </ul>
 
 <h2>Honors and Scholarship</h2>
