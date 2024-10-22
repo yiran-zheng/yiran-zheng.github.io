@@ -8,7 +8,7 @@ redirect_from:
 ---
     
 {% include base_path %}
-</p>&nbsp;<a href="../files/CV_Yiran_Zheng.pdf" target="_blank" rel="noopener noreferrer">Find My CV</a></p>
+&nbsp;<a href="../files/CV_Yiran_Zheng.pdf" target="_blank" rel="noopener noreferrer">Find My CV</a>
 
 <h2>Education</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
