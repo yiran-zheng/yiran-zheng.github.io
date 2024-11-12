@@ -80,6 +80,13 @@ redirect_from:
         <p>siewon.kim@ttu.edu</p>
       </div>
     </li>
+     <li>
+      <strong>James Kemper</strong> 
+      <div style="font-style: italic; margin-bottom: 12px;font-size: 16px;color: #666666;">
+        <p>Lecturer/GPTI Coordinator at Texas Tech University</p>
+        <p>james.kemper@ttu.edu</p>
+      </div>
+    </li>
   </ul>
 
   
