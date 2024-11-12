@@ -16,7 +16,7 @@ redirect_from:
       I am on job market for the 2024-2025 academic year.
       </p>
       <p>
-      My primary research interests are in industrial organization and applied microeconomics, concentrating on choice behavior, marketing, and managrial economics.
+      My primary research interests are in industrial organization and applied microeconomics, concentrating on choice behavior, marketing, and managerial economics.
       </p>
     </div>
   </div>
