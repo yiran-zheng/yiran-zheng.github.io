@@ -24,13 +24,11 @@ redirect_from:
 
 <h2>TEACHING EXPERIENCE</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
-<ul>
- <li>
-   <strong> Texas Tech University </strong>, August 2023 - Present
-   <p><i>Instructor of Record</i></p>
- </li> 
-Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spring 2025.
-</ul>
+
+
+<p><strong> Texas Tech University </strong>, August 2023 - Present</p>
+<p><i>Instructor of Record</i></p>
+<p>Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spring 2025.</p>
 <ul>
   <li> Taught classes ranging in size from 12 to 106 students. </li>
   <li> Prepare and present engaging lectures that effectively deliver course content.</li>
@@ -39,11 +37,9 @@ Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spr
   <li> Directed teaching assistants, providing guidance and support to ensure effective delivery of course materials and a seamless learning experience for students.</li>
 </ul>
 
+<p><strong> Texas Tech University </strong>, August 2020 – May 2023</p>
+<p><i>Teaching Assistant</i></p>
 <ul>
- <li>
-   <strong> Texas Tech University </strong>, August 2020 – May 2023
-   <p><i>Teaching Assistant</i></p>
- </li> 
  <li>Undergraduate Principles of Microeconomics: Fall 2020.</li>
  <li>Undergraduate Principles of Economics: Spring 2021.</li>
  <li>Managerial Economics: Fall 2021, Fall 2022. </li>
