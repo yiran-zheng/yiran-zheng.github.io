@@ -11,25 +11,28 @@ redirect_from:
 
 &#8618;&nbsp;Click <a href="../files/CV_Yiran_Zheng.pdf" target="_blank" rel="noopener noreferrer"> here </a> to find my CV
 
-<h2>Education</h2>
+<h2>EDUCATION</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
-<li>Ph.D. in Economics, Texas Tech University, Expected August 2025</li>
-<li>M.S. in Tourism Administration, George Washington University, May 2020</li>
-<li>B.S. in in Economics, University of Liverpool, July 2018</li>
-<li>B.S. in in Economics, Xi’an Jiaotong Liverpool University, July 2016</li>
+<li> <strong> Texas Tech University </strong> Ph.D. in Economics, Expected August 2025</li> 
+<li><strong> George Washington University </strong> M.S. in Tourism Administration, May 2020</li>
+<li><strong> University of Liverpool - Xi’an Jiaotong Liverpool University </strong> B.S. in in Economics, July 2018</li>
 </ul>
 
-<h2>Work experience</h2>
+<h2>TEACHING EXPERIENCE</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
-    Fall 2020 - present: Teaching Assistant
-    <ul>
-      <li>
-        Department of Economics, Texas Tech University, TX, USA
-      </li>
-    </ul>
+ <li>
+   <strong> Texas Tech University </strong>, Instructor of Record
+ </li> 
+Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spring 2025.
 </ul>
+
+<h2>RESEARCH EXPERIENCE</h2>
+<hr> <!-- This adds a horizontal line below the heading -->
+<strong>Ph.D. Researcher</strong>, Texas Tech University
+<strong>Master Researcher</strong>, George Washington University
+
 
 <h2>Certification</h2>
   <ul>
