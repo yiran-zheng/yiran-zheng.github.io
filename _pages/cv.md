@@ -47,8 +47,9 @@ redirect_from:
  <li>Monetary Theory: Spring 2022.</li>
  <li>Game Theory: Spring 2023. </li>
 </ul>
-<p><u>Responsibilities:</u></p>
+
 <ul>
+  <p><u>Responsibilities:</u></p>
   <li> Graded assignments, exams, and quizzes to assess and provide feedback to students.  </li>
   <li> Set up regular tutoring sessions and office hours to support students outside the class. </li>
   <li> Organized and administered examinations, including preparation, proctoring, and maintaining academic integrity. </li> 
