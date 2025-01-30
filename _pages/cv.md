@@ -14,9 +14,12 @@ redirect_from:
 <h2>EDUCATION</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
-<li> <strong> Texas Tech University </strong> Ph.D. in Economics, Expected August 2025</li> 
-<li><strong> George Washington University </strong> M.S. in Tourism Administration, May 2020</li>
-<li><strong> University of Liverpool - Xi’an Jiaotong Liverpool University </strong> B.S. in in Economics, July 2018</li>
+<li> <strong> Texas Tech University </strong> 
+     <p>Ph.D. in Economics, Expected August 2025</p></li> 
+<li><strong> George Washington University </strong> 
+     <p>M.S. in Tourism Administration, May 2020</p></li>
+<li><strong> University of Liverpool - Xi’an Jiaotong Liverpool University </strong> 
+     <p>B.S. in in Economics, July 2018</p></li>
 </ul>
 
 <h2>TEACHING EXPERIENCE</h2>
@@ -30,8 +33,8 @@ Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spr
 
 <h2>RESEARCH EXPERIENCE</h2>
 <hr> <!-- This adds a horizontal line below the heading -->
-<strong>Ph.D. Researcher</strong>, Texas Tech University
-<strong>Master Researcher</strong>, George Washington University
+<p> <strong>Ph.D. Researcher</strong>, Texas Tech University</p>
+<p> <strong>Master Researcher</strong>, George Washington University</p>
 
 
 <h2>Certification</h2>
