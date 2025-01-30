@@ -30,6 +30,7 @@ redirect_from:
 <p><i>Instructor of Record</i></p>
 <p>Principles of Economics: Fall 2023, Spring 2024, Summer 2024, Fall 2024, and Spring 2025.</p>
 <ul>
+<p><u>Responsibilities:</u></p>
   <li> Taught classes ranging in size from 12 to 106 students. </li>
   <li> Prepare and present engaging lectures that effectively deliver course content.</li>
   <li> Design exams, quizzes, and homework assignments that evaluate student understanding. </li> 
@@ -46,6 +47,7 @@ redirect_from:
  <li>Monetary Theory: Spring 2022.</li>
  <li>Game Theory: Spring 2023. </li>
 </ul>
+<p><u>Responsibilities:</u></p>
 <ul>
   <li> Graded assignments, exams, and quizzes to assess and provide feedback to students.  </li>
   <li> Set up regular tutoring sessions and office hours to support students outside the class. </li>
