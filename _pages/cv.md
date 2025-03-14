@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 &#8618;&nbsp;Click <a href="../files/CV_Yiran_Zheng.pdf" target="_blank" rel="noopener noreferrer"> here </a> to find my CV
+
 &#8618;&nbsp;Click <a href="../files/Yiran Zheng-Resume.pdf" target="_blank" rel="noopener noreferrer"> here </a> to find my Resume
 
 <h2>EDUCATION</h2>
