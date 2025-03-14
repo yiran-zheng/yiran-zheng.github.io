@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 &#8618;&nbsp;Click <a href="../files/CV_Yiran_Zheng.pdf" target="_blank" rel="noopener noreferrer"> here </a> to find my CV
+&#8618;&nbsp;Click <a href="../files/Yiran Zheng-Resume.pdf" target="_blank" rel="noopener noreferrer"> here </a> to find my Resume
 
 <h2>EDUCATION</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
@@ -88,6 +89,9 @@ redirect_from:
 <h2>HONORS AND SCHOLARSHIPS</h2>
   <hr> <!-- This adds a horizontal line below the heading -->
 <ul>
+  <li>
+    SEA Graduate Student Award 2024
+  </li>
   <li>
     Dr. Rashid B. Al-Hmoud Scholarship in Economics 2024
   </li>
