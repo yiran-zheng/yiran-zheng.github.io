@@ -21,10 +21,8 @@ redirect_from:
     <div style="flex: 2;font-size: 15px;color: #666666;">
       <p><strong>Contact Information</strong></p>
       <p>
-      &#128205; Holden Hall 144, Texas Tech University, Lubbock, Texas 79409  
-      </p>
-      <p>
       &#128231; <a href= "mailto: yiranzheng25@gmail.com"> Working Email </a>
+         &#128231; <a href= "mailto: yiranzheng.aca@gmail.com"> Academic Email </a>
       </p>
     </div>
   </div>
