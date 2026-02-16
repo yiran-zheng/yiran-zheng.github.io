@@ -9,128 +9,77 @@ redirect_from:
 
 <style>
   .bio-card {
-    background: #ffffff;
-    border-radius: 4px;
-    padding: 48px 52px;
     margin-bottom: 20px;
-    border-left: 4px solid #1a1a2e;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
-    opacity: 0;
-    transform: translateY(18px);
-    animation: fadeUp 0.7s ease forwards;
+    border-left: 4px solid #494e52;
+    padding: 24px 28px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    border-radius: 2px;
   }
 
   .bio-eyebrow {
-    font-family: inherit;
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #8a7f72;
-    margin-bottom: 16px;
-  }
-
-  .bio-name {
-    font-family: Georgia, serif;
-    font-size: 36px;
-    font-weight: 600;
-    color: #1a1a2e;
-    line-height: 1.15;
-    margin-bottom: 24px;
-  }
-
-  .bio-name span {
-    display: block;
-    font-size: 15px;
-    font-family: inherit;
-    font-weight: 300;
-    color: #8a7f72;
-    letter-spacing: 0.04em;
-    margin-top: 6px;
+    color: #999;
+    margin-bottom: 12px;
   }
 
   .bio-divider {
-    width: 40px;
+    width: 36px;
     height: 2px;
-    background: #1a1a2e;
-    margin-bottom: 24px;
-  }
-
-  .bio-text {
-    font-size: 15.5px;
-    font-weight: 300;
-    line-height: 1.85;
-    color: #3d3d3d;
-  }
-
-  .bio-text strong {
-    font-weight: bold;
-    color: inherit;
+    background: #494e52;
+    margin-bottom: 18px;
   }
 
   .bio-list {
     list-style: none;
-    margin-top: 18px;
     padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    margin-top: 14px;
   }
 
   .bio-list li {
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #3d3d3d;
-    padding-left: 20px;
+    padding-left: 18px;
     position: relative;
+    margin-bottom: 10px;
   }
 
   .bio-list li::before {
     content: "▸";
     position: absolute;
     left: 0;
-    color: #1a1a2e;
-    font-weight: 500;
-    font-size: 12px;
-    top: 3px;
-  }
-
-  .bio-list li strong {
-    font-weight: bold;
-    color: inherit;
+    top: 2px;
+    font-size: 11px;
+    color: #494e52;
   }
 
   .tags-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 28px;
+    gap: 8px;
+    margin-top: 22px;
   }
 
   .tag {
     font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.06em;
-    color: #1a1a2e;
-    background: #f0ede8;
+    letter-spacing: 0.05em;
+    color: #494e52;
+    background: #f2f3f3;
+    border: 1px solid #ddd;
     border-radius: 2px;
-    padding: 6px 14px;
+    padding: 4px 12px;
   }
 
   .contact-card {
-    background: #1a1a2e;
-    border-radius: 4px;
-    padding: 28px 52px;
+    background: #494e52;
+    border-radius: 2px;
+    padding: 22px 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 16px;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.12);
-    opacity: 0;
-    transform: translateY(18px);
-    animation: fadeUp 0.7s ease 0.2s forwards;
+    gap: 14px;
   }
 
   .contact-label {
@@ -138,13 +87,13 @@ redirect_from:
     font-weight: 500;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: #8a8fa8;
+    color: #aaa;
     margin-bottom: 4px;
   }
 
   .contact-links {
     display: flex;
-    gap: 28px;
+    gap: 24px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -155,15 +104,12 @@ redirect_from:
   }
 
   .contact-item a {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13.5px;
     color: #e8e4dc;
     text-decoration: none;
-    letter-spacing: 0.01em;
-    transition: color 0.2s ease;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 7px;
   }
 
   .contact-item a:hover {
@@ -172,30 +118,15 @@ redirect_from:
 
   .contact-divider {
     width: 1px;
-    height: 32px;
-    background: rgba(255,255,255,0.12);
-  }
-
-  @keyframes fadeUp {
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @media (max-width: 600px) {
-    .bio-card { padding: 32px 28px; }
-    .contact-card { padding: 24px 28px; }
-    .bio-name { font-size: 28px; }
-    .contact-links { gap: 16px; }
-    .contact-divider { display: none; }
+    height: 30px;
+    background: rgba(255,255,255,0.15);
   }
 </style>
 
-<!-- Bio Card -->
 <div class="bio-card">
   <p class="bio-eyebrow">Quantitative Researcher &amp; Data Analyst</p>
   <div class="bio-divider"></div>
-  <p class="bio-text">
-    I am a <strong>PhD economist</strong> and quantitative researcher passionate about turning complex data into clear, actionable insights. Here is what I bring to the table:
-  </p>
+  <p>I am a <strong>PhD economist</strong> and quantitative researcher passionate about turning complex data into clear, actionable insights. Here is what I bring to the table:</p>
   <ul class="bio-list">
     <li><strong>5+ years of experience</strong> in data analysis, <strong>statistical modeling</strong>, and <strong>applied econometrics</strong></li>
     <li>Proficient in <strong>R, Python, Stata, and SQL</strong> with hands-on experience on datasets of <strong>5M+ records</strong></li>
@@ -213,7 +144,6 @@ redirect_from:
   </div>
 </div>
 
-<!-- Contact Card -->
 <div class="contact-card">
   <div>
     <p class="contact-label">Get in touch</p>
@@ -222,7 +152,7 @@ redirect_from:
     <div class="contact-item">
       <span class="contact-label">Working</span>
       <a href="mailto:yiranzheng25@gmail.com">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
         yiranzheng25@gmail.com
       </a>
     </div>
@@ -230,7 +160,7 @@ redirect_from:
     <div class="contact-item">
       <span class="contact-label">Academic</span>
       <a href="mailto:yiranzheng.aca@gmail.com">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
         yiranzheng.aca@gmail.com
       </a>
     </div>
