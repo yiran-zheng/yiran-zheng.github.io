@@ -193,10 +193,6 @@ redirect_from:
 <!-- Bio Card -->
 <div class="bio-card">
   <p class="bio-eyebrow">Quantitative Researcher &amp; Data Analyst</p>
-  <h1 class="bio-name">
-    Yiran Zheng
-    <span>郑怡然</span>
-  </h1>
   <div class="bio-divider"></div>
   <p class="bio-text">
     I am a <strong>PhD economist</strong> and quantitative researcher passionate about turning complex data into clear, actionable insights. Here is what I bring to the table:
