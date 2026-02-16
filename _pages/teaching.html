@@ -113,17 +113,22 @@ author_profile: true
 
   .slide-btn {
     cursor: pointer;
-    background: none;
+    background: #fff;
     border: 1px solid #ccc;
     border-radius: 2px;
-    width: 28px;
-    height: 28px;
-    font-size: 13px;
-    color: #666;
-    display: flex;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 1;
+    color: #494e52;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     transition: all 0.2s;
+    padding: 0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
   .slide-btn:hover {
@@ -221,9 +226,9 @@ author_profile: true
     </div>
 
     <div class="slide-controls">
-      <button class="slide-btn" onclick="changeSlide(-1)">&#8249;</button>
+      <button class="slide-btn" onclick="teachingChangeSlide(-1)">&#8249;</button>
       <div class="dots" id="dots"></div>
-      <button class="slide-btn" onclick="changeSlide(1)">&#8250;</button>
+      <button class="slide-btn" onclick="teachingChangeSlide(1)">&#8250;</button>
     </div>
   </div>
 </div>
@@ -257,6 +262,7 @@ author_profile: true
 </div>
 
 <script>
+(function() {
   var current = 0;
   var slides = document.querySelectorAll('.slide');
   var dotsContainer = document.getElementById('dots');
@@ -265,19 +271,23 @@ author_profile: true
   slides.forEach(function(_, i) {
     var d = document.createElement('span');
     d.className = 'dot' + (i === 0 ? ' active' : '');
-    d.onclick = function() { goToSlide(i); };
+    d.setAttribute('data-index', i);
+    d.addEventListener('click', function() {
+      goToSlide(parseInt(this.getAttribute('data-index')));
+    });
     dotsContainer.appendChild(d);
   });
 
   function goToSlide(n) {
     slides[current].classList.remove('active');
-    document.querySelectorAll('.dot')[current].classList.remove('active');
+    document.querySelectorAll('#dots .dot')[current].classList.remove('active');
     current = (n + slides.length) % slides.length;
     slides[current].classList.add('active');
-    document.querySelectorAll('.dot')[current].classList.add('active');
+    document.querySelectorAll('#dots .dot')[current].classList.add('active');
   }
 
-  function changeSlide(dir) {
+  window.teachingChangeSlide = function(dir) {
     goToSlide(current + dir);
-  }
+  };
+})();
 </script>
