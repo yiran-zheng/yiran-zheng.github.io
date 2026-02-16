@@ -64,8 +64,8 @@ redirect_from:
   }
 
   .bio-text strong {
-    font-weight: 500;
-    color: #1a1a2e;
+    font-weight: bold;
+    color: inherit;
   }
 
   .bio-list {
@@ -97,8 +97,8 @@ redirect_from:
   }
 
   .bio-list li strong {
-    font-weight: 500;
-    color: #1a1a2e;
+    font-weight: bold;
+    color: inherit;
   }
 
   .tags-row {
