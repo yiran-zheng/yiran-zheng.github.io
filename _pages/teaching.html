@@ -47,7 +47,6 @@ author_profile: true
   .course-term {
     font-size: 13.5px;
     color: #888;
-    white-space: nowrap;
   }
 
   .course-desc {
@@ -64,8 +63,7 @@ author_profile: true
     margin-top: 20px;
     background: #f9f9f9;
     border-radius: 2px;
-    padding: 28px 36px;
-    position: relative;
+    padding: 28px 36px 20px;
   }
 
   .testimonial-label {
@@ -77,81 +75,73 @@ author_profile: true
     margin-bottom: 16px;
   }
 
-  .slide {
+  /* Hide all radio inputs */
+  .testimonial-wrap input[type="radio"] {
     display: none;
   }
 
-  .slide.active {
-    display: block;
-  }
-
-  .slide q {
+  /* Hide all slides by default */
+  .slide-content {
+    display: none;
     font-size: 14.5px;
     font-style: italic;
     color: #555;
     line-height: 1.8;
-    display: block;
     text-align: justify;
+    padding: 0 0 16px;
   }
 
-  .slide q::before {
+  .slide-content::before {
     content: "\201C";
-    font-size: 28px;
+    font-size: 32px;
     color: #494e52;
     line-height: 0;
-    vertical-align: -10px;
+    vertical-align: -12px;
     margin-right: 4px;
+    font-style: normal;
   }
 
-  .slide-controls {
+  /* Show slide when its radio is checked */
+  #s1:checked ~ .slides-container #slide1,
+  #s2:checked ~ .slides-container #slide2,
+  #s3:checked ~ .slides-container #slide3,
+  #s4:checked ~ .slides-container #slide4,
+  #s5:checked ~ .slides-container #slide5,
+  #s6:checked ~ .slides-container #slide6 {
+    display: block;
+  }
+
+  /* Dot labels */
+  .slide-dots {
     display: flex;
-    align-items: center;
+    gap: 8px;
     justify-content: center;
-    gap: 12px;
-    margin-top: 20px;
+    margin-top: 4px;
   }
 
-  .slide-btn {
-    cursor: pointer;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    width: 32px;
-    height: 32px;
-    font-size: 16px;
-    line-height: 1;
-    color: #494e52;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
-    padding: 0;
-    outline: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-
-  .slide-btn:hover {
-    background: #494e52;
-    color: #fff;
-    border-color: #494e52;
-  }
-
-  .dots {
-    display: flex;
-    gap: 6px;
-  }
-
-  .dot {
-    width: 7px;
-    height: 7px;
+  .slide-dots label {
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #ccc;
     cursor: pointer;
+    display: inline-block;
     transition: background 0.3s;
+    margin: 0;
+    float: none;
   }
 
-  .dot.active {
+  .slide-dots label:hover {
+    background: #888;
+  }
+
+  /* Active dot */
+  #s1:checked ~ .slide-dots label[for="s1"],
+  #s2:checked ~ .slide-dots label[for="s2"],
+  #s3:checked ~ .slide-dots label[for="s3"],
+  #s4:checked ~ .slide-dots label[for="s4"],
+  #s5:checked ~ .slide-dots label[for="s5"],
+  #s6:checked ~ .slide-dots label[for="s6"] {
     background: #494e52;
   }
 
@@ -202,33 +192,33 @@ author_profile: true
     </p>
   </div>
 
-  <!-- Student Testimonials -->
+  <!-- Student Testimonials - Pure CSS Slideshow -->
   <div class="testimonial-wrap">
     <p class="testimonial-label">Student Feedback</p>
 
-    <div class="slide active">
-      <q>She has a passion for teaching and always exerts her best efforts to teach in an understandable way. Instructor Zheng has went out of her way to adjust for students multiple times this semester and is always most kind and genuine. Economics is not an easy course and I do not necessarily enjoy it. However, I do appreciate greatly the effort and kindness of Instructor Zheng.</q>
-    </div>
-    <div class="slide">
-      <q>Professor Zheng is an amazing professor that really made learning economics understandable and seeing it in real life. She was very helpful on topics I did not understand and took the time to make sure I understood.</q>
-    </div>
-    <div class="slide">
-      <q>Yiran was amazing. The class was informative and fun. I really enjoyed attending the lecture every day. I have a greater understanding of economics and how it relates to business and every day life.</q>
-    </div>
-    <div class="slide">
-      <q>Professor Zheng was very kind and would go out of her way to make sure we understood exactly what we needed to.</q>
-    </div>
-    <div class="slide">
-      <q>I absolutely loved this instructor and would take her again in a heartbeat. She genuinely cared about the success of each of her students and I learned so much.</q>
-    </div>
-    <div class="slide">
-      <q>Very kind professor. She really wanted her students to understand the material and she cared if her teaching methods were effective.</q>
+    <input type="radio" name="slide" id="s1" checked>
+    <input type="radio" name="slide" id="s2">
+    <input type="radio" name="slide" id="s3">
+    <input type="radio" name="slide" id="s4">
+    <input type="radio" name="slide" id="s5">
+    <input type="radio" name="slide" id="s6">
+
+    <div class="slides-container">
+      <div class="slide-content" id="slide1">She has a passion for teaching and always exerts her best efforts to teach in an understandable way. Instructor Zheng has went out of her way to adjust for students multiple times this semester and is always most kind and genuine. Economics is not an easy course and I do not necessarily enjoy it. However, I do appreciate greatly the effort and kindness of Instructor Zheng.</div>
+      <div class="slide-content" id="slide2">Professor Zheng is an amazing professor that really made learning economics understandable and seeing it in real life. She was very helpful on topics I did not understand and took the time to make sure I understood.</div>
+      <div class="slide-content" id="slide3">Yiran was amazing. The class was informative and fun. I really enjoyed attending the lecture every day. I have a greater understanding of economics and how it relates to business and every day life.</div>
+      <div class="slide-content" id="slide4">Professor Zheng was very kind and would go out of her way to make sure we understood exactly what we needed to.</div>
+      <div class="slide-content" id="slide5">I absolutely loved this instructor and would take her again in a heartbeat. She genuinely cared about the success of each of her students and I learned so much.</div>
+      <div class="slide-content" id="slide6">Very kind professor. She really wanted her students to understand the material and she cared if her teaching methods were effective.</div>
     </div>
 
-    <div class="slide-controls">
-      <button class="slide-btn" onclick="teachingChangeSlide(-1)">&#8249;</button>
-      <div class="dots" id="dots"></div>
-      <button class="slide-btn" onclick="teachingChangeSlide(1)">&#8250;</button>
+    <div class="slide-dots">
+      <label for="s1"></label>
+      <label for="s2"></label>
+      <label for="s3"></label>
+      <label for="s4"></label>
+      <label for="s5"></label>
+      <label for="s6"></label>
     </div>
   </div>
 </div>
@@ -260,34 +250,3 @@ author_profile: true
     </li>
   </ul>
 </div>
-
-<script>
-(function() {
-  var current = 0;
-  var slides = document.querySelectorAll('.slide');
-  var dotsContainer = document.getElementById('dots');
-
-  // Build dots
-  slides.forEach(function(_, i) {
-    var d = document.createElement('span');
-    d.className = 'dot' + (i === 0 ? ' active' : '');
-    d.setAttribute('data-index', i);
-    d.addEventListener('click', function() {
-      goToSlide(parseInt(this.getAttribute('data-index')));
-    });
-    dotsContainer.appendChild(d);
-  });
-
-  function goToSlide(n) {
-    slides[current].classList.remove('active');
-    document.querySelectorAll('#dots .dot')[current].classList.remove('active');
-    current = (n + slides.length) % slides.length;
-    slides[current].classList.add('active');
-    document.querySelectorAll('#dots .dot')[current].classList.add('active');
-  }
-
-  window.teachingChangeSlide = function(dir) {
-    goToSlide(current + dir);
-  };
-})();
-</script>
