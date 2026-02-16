@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
 
 <style>
   .bio-card {
@@ -22,7 +21,7 @@ redirect_from:
   }
 
   .bio-eyebrow {
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.18em;
@@ -32,7 +31,7 @@ redirect_from:
   }
 
   .bio-name {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, serif;
     font-size: 36px;
     font-weight: 600;
     color: #1a1a2e;
@@ -43,7 +42,7 @@ redirect_from:
   .bio-name span {
     display: block;
     font-size: 15px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: inherit;
     font-weight: 300;
     color: #8a7f72;
     letter-spacing: 0.04em;
@@ -193,6 +192,10 @@ redirect_from:
 <!-- Bio Card -->
 <div class="bio-card">
   <p class="bio-eyebrow">Quantitative Researcher &amp; Data Analyst</p>
+  <h1 class="bio-name">
+    Yiran Zheng
+    <span>郑怡然</span>
+  </h1>
   <div class="bio-divider"></div>
   <p class="bio-text">
     I am a <strong>PhD economist</strong> and quantitative researcher passionate about turning complex data into clear, actionable insights. Here is what I bring to the table:
@@ -237,5 +240,3 @@ redirect_from:
     </div>
   </div>
 </div>
-
-
