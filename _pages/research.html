@@ -7,33 +7,137 @@ author_profile: true
 
 {% include base_path %}
 
-<p align = "justify"> 
+<style>
+  .research-section {
+    margin-bottom: 32px;
+  }
+
+  .research-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #494e52;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #494e52;
+  }
+
+  .paper-card {
+    border-left: 4px solid #494e52;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    padding: 20px 24px;
+    margin-top: 16px;
+  }
+
+  .paper-title {
+    font-size: 15.5px;
+    font-weight: bold;
+    color: #494e52;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+  .paper-title a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #52adc8;
+    text-decoration: none;
+    margin-left: 8px;
+    letter-spacing: 0.02em;
+  }
+
+  .paper-title a:hover {
+    text-decoration: underline;
+  }
+
+  .paper-coauthor {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .paper-abstract {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.75;
+    text-align: justify;
+    margin-top: 10px;
+    border-top: 1px solid #f2f3f3;
+    padding-top: 10px;
+  }
+
+  .abstract-label {
+    font-weight: bold;
+    color: #494e52;
+    font-style: normal;
+  }
+
+  .progress-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 14px;
+  }
+
+  .progress-list li {
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #494e52;
+  }
+
+  .progress-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 11px;
+    color: #494e52;
+  }
+</style>
+
+<!-- Working Papers -->
+<div class="research-section">
   <h2>Working Papers &#128218;</h2>
-    <hr> <!-- This adds a horizontal line below the heading -->
-          <ul>
-            <li><strong>Advertising and Consumer Decision-Making in the Experience Good Market</strong> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5099995" target="_blank">[JMP]</a>
-                <p align="justify">
-                  <i>Abstract:</i> The study explores the impact of brand-level information contained in media advertising on consumer decision-making when purchasing non-durable experience goods. Utilizing a random coefficient discrete-choice model on the ready-to-eat cereal industry, I consider the effects of advertising via nationwide media on consumer choices. Building on previous studies, I propose a new group of instrumental variables for addressing endogeneity and incorporating demographic household information on the consumers who purchased. I discuss strategic marketing implications for businesses, arguing that high brand awareness comes from extensive advertisements through multiple channels. The results suggest that carbohydrate-related features, in particular, need to be carefully advertised to children-orientated ready-to-eat cereal products. In addition, advertised brands have higher loyalty, and consumers are less sensitive to their prices.
-                </p>
-            </li>
-          </ul>
-          <ul>
-            <li><strong>The Impact of Rent Stabilization Policy: An Empirical Study of Twin Cities</strong> <a href="../files/The_Impact_of_Rent_Stabilization_Policy__An_Empirical_Study_of_Twin_Cities.pdf" target="_blank" rel="noopener noreferrer"> [Link] </a> 
-                <p align="justify">
-                  <i>Abstract:</i> The study explores the impact of second-generation rent control, also known as rent stabilization, on the housing market in the Twin Cities by using the two-way fixed difference-in-difference (DiD) approach and event study strategy. Rent regulations are differentiated in Saint Paul and Minneapolis, where two cities are considered natural groups close enough to share similar demographic and geographic features, allowing exploration policy intervention on housing market indices over time. The study primarily focuses on the monthly home value affected by the rent stabilization at the neighborhood level. A triple difference-in-difference (DDD) model is employed for the robustness test. The results suggest that rent stabilization depresses the values of smaller homes more substantially, whereas larger homes face less direct policy-induced devaluation. The dynamic effect reveals that regulatory interventions can distort property market valuations, particularly for homes that are more susceptible to changes in investor expectations and future rental constraints. Moreover, the policy has less direct impact across building structures, including single-family homes and condominiums.
-                </p>
-            </li>
-          </ul>
-          <ul>
-            <li><strong>Inflationary Impacts on Non Durable Good Consumption</strong> <i>(with Ashley Escudero)</i>
-                <p align="justify">
-                  <i>Abstract:</i> Inflationary shocks directly impact the decisions made by individual consumers regarding everyday purchasing decisions of nondurable goods that are repurchased on a regular basis. Using data from NielsenIQ this paper examines these purchasing decisions in response to the high inflation experienced in 2022 following the COVID-19 pandemic. By examining how individuals adjust their behavior in response to these increased price levels firms and policymakers can more efficiently address inflation concerns and purchasing patterns.
-            </li>
-          </ul>
 
+  <div class="paper-card">
+    <div class="paper-title">
+      Advertising and Consumer Decision-Making in the Experience Good Market
+      <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5099995" target="_blank">[JMP]</a>
+    </div>
+    <p class="paper-abstract">
+      <span class="abstract-label">Abstract:</span> The study explores the impact of brand-level information contained in media advertising on consumer decision-making when purchasing non-durable experience goods. Utilizing a random coefficient discrete-choice model on the ready-to-eat cereal industry, I consider the effects of advertising via nationwide media on consumer choices. Building on previous studies, I propose a new group of instrumental variables for addressing endogeneity and incorporating demographic household information on the consumers who purchased. I discuss strategic marketing implications for businesses, arguing that high brand awareness comes from extensive advertisements through multiple channels. The results suggest that carbohydrate-related features, in particular, need to be carefully advertised to children-orientated ready-to-eat cereal products. In addition, advertised brands have higher loyalty, and consumers are less sensitive to their prices.
+    </p>
+  </div>
+
+  <div class="paper-card">
+    <div class="paper-title">
+      The Impact of Rent Stabilization Policy: An Empirical Study of Twin Cities
+      <a href="../files/The_Impact_of_Rent_Stabilization_Policy__An_Empirical_Study_of_Twin_Cities.pdf" target="_blank" rel="noopener noreferrer">[Link]</a>
+    </div>
+    <p class="paper-abstract">
+      <span class="abstract-label">Abstract:</span> The study explores the impact of second-generation rent control, also known as rent stabilization, on the housing market in the Twin Cities by using the two-way fixed difference-in-difference (DiD) approach and event study strategy. Rent regulations are differentiated in Saint Paul and Minneapolis, where two cities are considered natural groups close enough to share similar demographic and geographic features, allowing exploration policy intervention on housing market indices over time. The study primarily focuses on the monthly home value affected by the rent stabilization at the neighborhood level. A triple difference-in-difference (DDD) model is employed for the robustness test. The results suggest that rent stabilization depresses the values of smaller homes more substantially, whereas larger homes face less direct policy-induced devaluation. The dynamic effect reveals that regulatory interventions can distort property market valuations, particularly for homes that are more susceptible to changes in investor expectations and future rental constraints. Moreover, the policy has less direct impact across building structures, including single-family homes and condominiums.
+    </p>
+  </div>
+
+  <div class="paper-card">
+    <div class="paper-title">
+      Inflationary Impacts on Non Durable Good Consumption
+    </div>
+    <div class="paper-coauthor">with Ashley Escudero</div>
+    <p class="paper-abstract">
+      <span class="abstract-label">Abstract:</span> Inflationary shocks directly impact the decisions made by individual consumers regarding everyday purchasing decisions of nondurable goods that are repurchased on a regular basis. Using data from NielsenIQ this paper examines these purchasing decisions in response to the high inflation experienced in 2022 following the COVID-19 pandemic. By examining how individuals adjust their behavior in response to these increased price levels firms and policymakers can more efficiently address inflation concerns and purchasing patterns.
+    </p>
+  </div>
+</div>
+
+<!-- Works in Progress -->
+<div class="research-section">
   <h2>Works in Progress &#128218;</h2>
-       <hr> <!-- This adds a horizontal line below the heading -->
-          <li> "Advertising and Price Discrimination" </li>
-          <li> "The Housing Market in the Sharing Economy" </li>
-
-
+  <ul class="progress-list">
+    <li>Advertising and Price Discrimination</li>
+    <li>The Housing Market in the Sharing Economy</li>
+  </ul>
+</div>
