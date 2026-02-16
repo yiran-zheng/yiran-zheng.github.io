@@ -229,7 +229,7 @@ redirect_from:
 
   <div class="cv-card">
     <div class="cv-card-header">
-      <span class="cv-card-title">University of Liverpool – Xi'an Jiaotong Liverpool University</span>
+      <span class="cv-card-title">University of Liverpool</span>
       <span class="cv-card-date">July 2018</span>
     </div>
     <div class="cv-card-sub">B.S. in Economics</div>
