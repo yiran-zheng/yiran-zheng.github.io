@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Yiran Zheng"
 title_separator          : "-"
 name                     : &name "Yiran Zheng"
-description              : &description "
+description              : &description "Quantitative researcher and economist specializing in data analytics and market analysis"
 url                      : https://yiran-zheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yiran-zheng/yiran-zheng.github.io"
@@ -25,10 +25,10 @@ author:
   name             : "Yiran Zheng 郑怡然"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. in Economics"
-  employer         : ""
+  #employer         : ""
   location         : "Chicago, IL"
   uri              : # URL
-  email            : "yiranzheng25@gmail.com" 
+  #email            : "yiranzheng25@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
