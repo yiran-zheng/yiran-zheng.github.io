@@ -6,211 +6,278 @@ author_profile: true
 ---
 
 {% include base_path %}
-<p align = "justify"> 
-    <h2>Instructor of Record &#128261; </h2>
-    <hr> <!-- This adds a horizontal line below the heading -->
-        <div style="display: flex; justify-content: space-between;">
-          <strong>ECO 2305 Principles of Economics</strong>
-          <span style="font-size: 16px; color: #585858;"><strong>Fall 2023, Spring 2024, Summer 2024, Fall 2024, Spring 2025</strong></span>
-        </div>
-    <div style="margin-top: 14px; color: #666666;">
-    This is an abridged course covering the most significant portions of Principles of Microeconomics (ECO 2301) and Principles of Macroeconomics (ECO 2302), with emphasis on monetary and fiscal policy.
+
+<style>
+  .teaching-section {
+    margin-bottom: 32px;
+  }
+
+  .teaching-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #494e52;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #494e52;
+  }
+
+  .course-card {
+    border-left: 4px solid #494e52;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    padding: 18px 24px;
+    margin-top: 16px;
+  }
+
+  .course-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .course-name {
+    font-size: 15.5px;
+    font-weight: bold;
+    color: #494e52;
+  }
+
+  .course-term {
+    font-size: 13.5px;
+    color: #888;
+    white-space: nowrap;
+  }
+
+  .course-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.75;
+    margin-top: 10px;
+    border-top: 1px solid #f2f3f3;
+    padding-top: 10px;
+  }
+
+  /* ── TESTIMONIALS ── */
+  .testimonial-wrap {
+    margin-top: 20px;
+    background: #f9f9f9;
+    border-radius: 2px;
+    padding: 28px 36px;
+    position: relative;
+  }
+
+  .testimonial-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 16px;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .slide.active {
+    display: block;
+  }
+
+  .slide q {
+    font-size: 14.5px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.8;
+    display: block;
+    text-align: justify;
+  }
+
+  .slide q::before {
+    content: "\201C";
+    font-size: 28px;
+    color: #494e52;
+    line-height: 0;
+    vertical-align: -10px;
+    margin-right: 4px;
+  }
+
+  .slide-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .slide-btn {
+    cursor: pointer;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+
+  .slide-btn:hover {
+    background: #494e52;
+    color: #fff;
+    border-color: #494e52;
+  }
+
+  .dots {
+    display: flex;
+    gap: 6px;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .dot.active {
+    background: #494e52;
+  }
+
+  /* ── TA LIST ── */
+  .ta-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 14px;
+  }
+
+  .ta-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f2f3f3;
+    font-size: 15px;
+  }
+
+  .ta-list li:last-child {
+    border-bottom: none;
+  }
+
+  .ta-course {
+    font-weight: bold;
+    color: #494e52;
+  }
+
+  .ta-term {
+    font-size: 13.5px;
+    color: #888;
+  }
+</style>
+
+<!-- Instructor of Record -->
+<div class="teaching-section">
+  <h2>Instructor of Record &#128261;</h2>
+
+  <div class="course-card">
+    <div class="course-row">
+      <span class="course-name">ECO 2305 Principles of Economics</span>
+      <span class="course-term">Fall 2023 · Spring 2024 · Summer 2024 · Fall 2024 · Spring 2025</span>
+    </div>
+    <p class="course-desc">
+      This is an abridged course covering the most significant portions of Principles of Microeconomics (ECO 2301) and Principles of Macroeconomics (ECO 2302), with emphasis on monetary and fiscal policy.
+    </p>
+  </div>
+
+  <!-- Student Testimonials -->
+  <div class="testimonial-wrap">
+    <p class="testimonial-label">Student Feedback</p>
+
+    <div class="slide active">
+      <q>She has a passion for teaching and always exerts her best efforts to teach in an understandable way. Instructor Zheng has went out of her way to adjust for students multiple times this semester and is always most kind and genuine. Economics is not an easy course and I do not necessarily enjoy it. However, I do appreciate greatly the effort and kindness of Instructor Zheng.</q>
+    </div>
+    <div class="slide">
+      <q>Professor Zheng is an amazing professor that really made learning economics understandable and seeing it in real life. She was very helpful on topics I did not understand and took the time to make sure I understood.</q>
+    </div>
+    <div class="slide">
+      <q>Yiran was amazing. The class was informative and fun. I really enjoyed attending the lecture every day. I have a greater understanding of economics and how it relates to business and every day life.</q>
+    </div>
+    <div class="slide">
+      <q>Professor Zheng was very kind and would go out of her way to make sure we understood exactly what we needed to.</q>
+    </div>
+    <div class="slide">
+      <q>I absolutely loved this instructor and would take her again in a heartbeat. She genuinely cared about the success of each of her students and I learned so much.</q>
+    </div>
+    <div class="slide">
+      <q>Very kind professor. She really wanted her students to understand the material and she cared if her teaching methods were effective.</q>
     </div>
 
-<hr> <!-- This adds a horizontal line below the heading -->
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
-}
-
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 60px;
-  text-align: center;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
-</style>
-</head>
-<body>
-
-<div class="slideshow-container">
-	
-<div class="mySlides">
-  <q>She has a passion for teaching and always exerts her best efforts to teach in an understandable way. Instructor Zheng has went out of her way to adjust for students multiple times this semester and is always most kind and genuine. Economics is not an easy course and I do not necessarily enjoy it. However, I do appreciate greatly the effort and kindness of Instructor Zheng.</q>
+    <div class="slide-controls">
+      <button class="slide-btn" onclick="changeSlide(-1)">&#8249;</button>
+      <div class="dots" id="dots"></div>
+      <button class="slide-btn" onclick="changeSlide(1)">&#8250;</button>
+    </div>
+  </div>
 </div>
 
-<div class="mySlides">
-  <q>Professor Zheng is an amazing professor that really made learning economics understandable and seeing it in really life. She was very helpful on topics I did not understand and took the time make sure I understood.</q>
-</div>
+<!-- Teaching Assistant -->
+<div class="teaching-section">
+  <h2>Teaching Assistant &#128261;</h2>
 
-<div class="mySlides">
-  <q>Yiran was amazing. The class was informative and fun. I really enjoyed attending the lecture every day. I have a greater understanding of economics and how it relates to business and every day life.</q>
-</div>
-
-<div class="mySlides">
-  <q>Professor Zheng was very kind and would go out of her way to make sure we understood exactly what needed to.</q>
-</div>
-	
-<div class="mySlides">
-  <q>I absolutely loved this instructor and would take her again in a heartbeat. She genuinely cared about the success of each of her students and I learned so much.</q>
-</div>
-
-<div class="mySlides">
-  <q>Very kind professor. She really wanted her students to understand the material and she cared if her teaching methods were effective.</q>
-</div>
-	
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-
-<div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-  <span class="dot" onclick="currentSlide(6)"></span> 
+  <ul class="ta-list">
+    <li>
+      <span class="ta-course">ECO 3305 Game Theory</span>
+      <span class="ta-term">Spring 2023</span>
+    </li>
+    <li>
+      <span class="ta-course">ECO 3320 Managerial Economics</span>
+      <span class="ta-term">Fall 2021 · Fall 2022</span>
+    </li>
+    <li>
+      <span class="ta-course">ECO 4323 Monetary Theory</span>
+      <span class="ta-term">Spring 2022</span>
+    </li>
+    <li>
+      <span class="ta-course">ECO 2305 Principles of Economics</span>
+      <span class="ta-term">Spring 2021</span>
+    </li>
+    <li>
+      <span class="ta-course">ECO 2301 Principles of Microeconomics</span>
+      <span class="ta-term">Fall 2020</span>
+    </li>
+  </ul>
 </div>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+  var current = 0;
+  var slides = document.querySelectorAll('.slide');
+  var dotsContainer = document.getElementById('dots');
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  // Build dots
+  slides.forEach(function(_, i) {
+    var d = document.createElement('span');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = function() { goToSlide(i); };
+    dotsContainer.appendChild(d);
+  });
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+  function goToSlide(n) {
+    slides[current].classList.remove('active');
+    document.querySelectorAll('.dot')[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    document.querySelectorAll('.dot')[current].classList.add('active');
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+
+  function changeSlide(dir) {
+    goToSlide(current + dir);
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
 </script>
-
-</body>
-</html> 
-
-
-<hr> <!-- This adds a horizontal line below the heading -->
-			 
-
-
-    <h2>Teaching Assistant &#128261; </h2>
-    <hr> <!-- This adds a horizontal line below the heading -->
-        <ul>
-            <li>
-                <div style="display: flex; justify-content: space-between;">
-                <strong>ECO 3305 Game Thoery</strong>
-                <span style="font-size: 16px; color: #585858;">Spring 2023</span>
-                </div>
-            </li>
-            <li>
-                <div style="display: flex; justify-content: space-between;">
-                <strong>ECO 3320 Managerial Economics</strong>
-                <span style="font-size: 16px; color: #585858;">Fall 2022, Fall 2021</span>
-                </div>
-            </li>
-            <li>
-                <div style="display: flex; justify-content: space-between;">
-                <strong>ECO 4323 Monetary Theory</strong>
-                <span style="font-size: 16px; color: #585858;">Spring 2022</span>
-                </div>
-            </li>
-            <li>
-                <div style="display: flex; justify-content: space-between;">
-                <strong>ECO 2305 Principles of Economics</strong>
-                <span style="font-size: 16px; color: #585858;">Spring 2021</span>
-                </div>
-            </li>
-            <li>
-                <div style="display: flex; justify-content: space-between;">
-                <strong>ECO 2301 Principles of Microeconomics</strong>
-                <span style="font-size: 16px; color: #585858;">Fall 2020</span>
-                </div>
-            </li>
-        </ul>
-
-</p>
